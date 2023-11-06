@@ -10,11 +10,12 @@ console.log("Numero di km:", NumeroKm)
 const EtaPasseggero = prompt("Età del passeggero")
 console.log("età del passeggero:",EtaPasseggero)
 
-//salvare in una variabile il prezzo al km//
+//calcolare il prezzo del biglietto in base ai km percorsi dall'utente (prezzo al km 0.21 euro)//
+
 let PrezzoKm= NumeroKm*0.21;
 PrezzoKm.toFixed(2)
 
-//calcolare il prezzo del biglietto in base ai km percorsi dall'utente (prezzo al km 0.21 euro)//
+
 
 /*Condizioni
 se l'utente ha un età compresa dai 0 a 17 anni:*/
