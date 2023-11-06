@@ -14,7 +14,6 @@ console.log("età del passeggero:",EtaPasseggero)
 let PrezzoKm= NumeroKm*0.21;
 PrezzoKm.toFixed(2)
 
-console.log( "Costo totale = ",PrezzoKm)
 //calcolare il prezzo del biglietto in base ai km percorsi dall'utente (prezzo al km 0.21 euro)//
 
 /*Condizioni
@@ -34,6 +33,6 @@ if (EtaPasseggero < 18){
     console.log("prezzo scontato totale da pagare:", PrezzoKm.toFixed(2))
 }
  else{
-    console.log("niente sconto")
+    console.log("Prezzo intero", PrezzoKm)
  }
  
